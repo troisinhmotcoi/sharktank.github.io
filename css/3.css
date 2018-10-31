@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding:0;
+}
+h1.tieude {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-weight: bolder;
+    margin: 17px 0;   
+     margin-bottom: 100px;
+}
+.noidung {
+    font-size: 16px;
+    font-weight: bold;
+    color: darkred;
+
+    width: 37%;
+    margin: auto;
+    font-family: 'Josefin Slab', serif;
+}
+._1khoi {
+    overflow: hidden;
+}
+
+.tdkhoi img {
+    padding-top: 13px;
+    margin-right: -40px;
+}
+
+.tdkhoi img {
+    float: right;
+    transition: 0.4s;
+}
+
+.tdkhoi {
+    height: 40px;
+    font-size: 40px;
+    color: #0f500f;
+    padding-bottom: 19px;
+    cursor: pointer;
+}
+
+.tdkhoi:hover img {
+    margin-right: 0px;
+}
+
+.tdkhoi:hover {
+    color: blue;
+}
+._1khoi {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.tdkhoi.xanh {
+    color: blue;
+}
+.tdkhoi.xanh img {
+    margin-right: 0;
+    transform: rotate(180deg);
+    margin-top: 7px;
+}
